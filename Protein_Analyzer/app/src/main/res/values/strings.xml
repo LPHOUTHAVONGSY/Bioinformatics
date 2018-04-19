@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Protein Analyzer</string>
+    <string name="button">Button</string>
+    <string name="sequence_length">Sequence Length</string>
+    <string name="protein_composition">Protein Composition</string>
+    <string name="publications">Publications</string>
+    <string name="enter_protein_name">Enter Protein Name</string>
+    <string name="submit">Submit</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="protein_name">Protein Name</string>
+    <string name="textview">TextView</string>
+    <string name="textview10">TextView</string>
+    <string name="enter_protein_id">Enter Protein ID</string>
+    <string name="submit10">Submit</string>
+    <string name="logo">logo</string>
+    <string name="raw_protein_sequence">Protein sequence</string>
+    <string name="molecular_weight">Molecular Weight</string>
+    <string name="function">function</string>
+
+
+</resources>

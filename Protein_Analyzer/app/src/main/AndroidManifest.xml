@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.proteinanalyzer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2s"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2r"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="Protein Sequence Length"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="Protein Composition"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="Protein Molecular Weight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="Protein Function"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main7Activity"
+            android:label="Publications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main8Activity"
+            android:label="Protein Sequence"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main9Activity"
+            android:label="Protein Name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Main11Activity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

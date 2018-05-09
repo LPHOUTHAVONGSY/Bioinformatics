@@ -1,4 +1,4 @@
-### This script was used to run bioinformatic tools on SciNet for genomic data analysis.
+### Script is used to run bioinformatic tools on SciNet cluster
 
 ### BUILD DIRECTORY TREE  ##########################################################################
 mkdir BIF807
